@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="390" viewBox="0 0 1100 390">
+ <rect width="1100" height="390" rx="24" fill="#091827"/>
+ <g font-family="Segoe UI,Arial">
+  <text x="55" y="55" fill="#fff" font-size="27" font-weight="700">Study-aware evaluation</text>
+  <text x="55" y="84" fill="#91afc0" font-size="15">같은 논문/실험 batch의 formulation은 절대 train과 test로 나뉘지 않습니다.</text>
+  <g transform="translate(55 130)">
+   <rect width="670" height="185" rx="18" fill="#112b40" stroke="#42d8c8" stroke-width="2"/>
+   <text x="28" y="38" fill="#42d8c8" font-size="19" font-weight="650">TRAIN · 5 studies</text>
+   <g font-size="16" text-anchor="middle">
+    <rect x="28" y="65" width="105" height="72" rx="12" fill="#173d52"/><text x="80" y="108" fill="white">S_A</text>
+    <rect x="151" y="65" width="105" height="72" rx="12" fill="#173d52"/><text x="203" y="108" fill="white">S_B</text>
+    <rect x="274" y="65" width="105" height="72" rx="12" fill="#173d52"/><text x="326" y="108" fill="white">S_C</text>
+    <rect x="397" y="65" width="105" height="72" rx="12" fill="#173d52"/><text x="449" y="108" fill="white">S_D</text>
+    <rect x="520" y="65" width="105" height="72" rx="12" fill="#173d52"/><text x="572" y="108" fill="white">S_E</text>
+   </g>
+   <path d="M690 92h62" stroke="#8c78ff" stroke-width="5"/><path d="M752 92l-14-9v18z" fill="#8c78ff"/>
+   <rect x="780" width="210" height="185" rx="18" fill="#241c48" stroke="#8c78ff" stroke-width="2"/>
+   <text x="808" y="38" fill="#b7a9ff" font-size="19" font-weight="650">TEST</text>
+   <rect x="825" y="65" width="120" height="72" rx="12" fill="#392d67"/><text x="885" y="108" fill="white" font-size="18" text-anchor="middle">S_F</text>
+  </g>
+  <text x="55" y="355" fill="#ffcb87" font-size="15">이 과정을 각 study가 한 번씩 test가 될 때까지 반복합니다.</text>
+ </g>
+</svg>

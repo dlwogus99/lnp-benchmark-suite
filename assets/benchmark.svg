@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420">
+<rect width="1000" height="420" rx="22" fill="#091827"/>
+<g font-family="Segoe UI,Arial">
+<text x="70" y="58" fill="white" font-size="28" font-weight="700">Leave-one-study-out benchmark</text>
+<text x="70" y="90" fill="#93afbf" font-size="15">24 demo formulations · 6 held-out studies · lower is better</text>
+<text x="70" y="168" fill="#e8f4fa" font-size="18">MEAN</text><rect x="210" y="145" width="620" height="32" rx="8" fill="#19344a"/><rect x="210" y="145" width="541.1" height="32" rx="8" fill="#ff8f8f"/><text x="850" y="168" fill="#ff8f8f" font-size="18">MAE 12.03</text><text x="70" y="243" fill="#e8f4fa" font-size="18">KNN</text><rect x="210" y="220" width="620" height="32" rx="8" fill="#19344a"/><rect x="210" y="220" width="159.2" height="32" rx="8" fill="#8c78ff"/><text x="850" y="243" fill="#8c78ff" font-size="18">MAE 3.54</text><text x="70" y="318" fill="#e8f4fa" font-size="18">RIDGE</text><rect x="210" y="295" width="620" height="32" rx="8" fill="#19344a"/><rect x="210" y="295" width="77.1" height="32" rx="8" fill="#42d8c8"/><text x="850" y="318" fill="#42d8c8" font-size="18">MAE 1.71</text>
+</g></svg>

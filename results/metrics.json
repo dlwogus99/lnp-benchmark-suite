@@ -1,0 +1,19 @@
+{
+  "protocol": "leave_one_study_out",
+  "n_formulations": 24,
+  "n_studies": 6,
+  "models": {
+    "knn": {
+      "mae": 3.538,
+      "r2": 0.8979
+    },
+    "mean": {
+      "mae": 12.025,
+      "r2": -0.0013
+    },
+    "ridge": {
+      "mae": 1.7142,
+      "r2": 0.9797
+    }
+  }
+}

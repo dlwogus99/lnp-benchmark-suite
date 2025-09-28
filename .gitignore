@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+results/*
+!results/.gitkeep
+data/external/*
+!data/external/.gitkeep
+!results/metrics.json
+!results/predictions.csv

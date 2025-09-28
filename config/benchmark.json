@@ -1,0 +1,9 @@
+{
+  "target": "transfection_pct",
+  "group_column": "study_id",
+  "protocol": "leave_one_study_out",
+  "models": ["mean", "knn", "ridge"],
+  "ridge_alpha": 1.0,
+  "knn_k": 3,
+  "seed": 42
+}

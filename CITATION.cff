@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this educational benchmark scaffold, please cite this repository."
+title: "LNP Benchmark Suite"
+type: software
+version: 0.1.0
+date-released: 2025-09-28
+license: MIT
